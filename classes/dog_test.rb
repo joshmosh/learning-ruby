@@ -1,7 +1,4 @@
-# Require Dog class
 require File.join(File.dirname(__FILE__), 'dog')
-
-# Require ruby built in test framework
 require 'test/unit'
 
 class DogTest < Test::Unit::TestCase
